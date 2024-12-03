@@ -12,7 +12,7 @@ namespace DeyanaEvents
         {
             InitializeComponent();
 
-            var connectionString = "Host=localhost;Database=DeyanaEvents;Username={username};Password={password}";
+            var connectionString = "Host=localhost;Database=DeyanaEvents;Username=PolinaScrbbs;Password=Que337";
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                 .UseNpgsql(connectionString)
                 .Options;
